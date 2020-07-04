@@ -21,7 +21,5 @@ class AddVideoInStory: XCTestCase{
         instaApp.buttons["Send to"].tap()
         instaApp.collectionViews.cells.otherElements["Button to share the message to Your Story"].tap()
         instaApp.buttons["Done"].tap()
-        
     }
-    
 }
