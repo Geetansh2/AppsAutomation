@@ -14,5 +14,10 @@ class ProfileScreenIG{
         insta=app
     }
     
-    
+    func clickDeleteButton(){
+        let deleteButton = insta.buttons["Delete"]
+        let exists  = deleteButton.waitForExistence(timeout: 3.0)
+        XCTAssertTrue(exists,"Click delete button")
+        deleteButton.tap()
+    }
 }
