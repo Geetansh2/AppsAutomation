@@ -40,4 +40,8 @@ class HomeScreenIG{
         insta.buttons["Profile Tab"].tap()
     }
     
+    func clickStoryButton(){
+        insta.collectionViews.cells["Stories tray"].tap()
+    }
+    
 }
