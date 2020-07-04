@@ -8,7 +8,7 @@
 
 import Foundation
 import XCTest
-class AddStory: XCTestCase{
+class AddImageInStory: XCTestCase{
      var instaApp: XCUIApplication = Instagram().getBundler()
     var insta: Instagram = Instagram()
     var commonUtils: CommonUtils=CommonUtils()
