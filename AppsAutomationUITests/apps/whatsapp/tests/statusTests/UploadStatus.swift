@@ -27,4 +27,6 @@ class UploadStatus:XCTestCase{
         whatsapp.statusScreenWA.clickOnCameraIcon()
         whatsapp.statusScreenWA.uploadImageFromCamera()
     }
+    
+    
 }

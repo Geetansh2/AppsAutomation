@@ -101,6 +101,13 @@
 			path = storyTest;
 			sourceTree = "<group>";
 		};
+		B965E27024B1F08400F7DFD3 /* messageStickertests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = messageStickertests;
+			sourceTree = "<group>";
+		};
 		B9673FC0249F4EC80050C9CC = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +280,7 @@
 		B9D39C1724A0BBF7001BBC80 /* tests */ = {
 			isa = PBXGroup;
 			children = (
+				B965E27024B1F08400F7DFD3 /* messageStickertests */,
 				B9D39C1D24A0BE80001BBC80 /* statusTests */,
 			);
 			path = tests;
